@@ -1,0 +1,36 @@
+.FooterLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+
+    h4{
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    p{
+        color: #C0C0C0;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1.43px;
+        span{
+            color: #FF2B51;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 1.54px;
+        }
+    }
+}
