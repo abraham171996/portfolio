@@ -1,0 +1,41 @@
+.AboutBanner{
+    display: flex;
+    
+    padding-top: 30px;
+    figure{
+        width: 700px;
+        height: 400px;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+    }
+    &__content{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        h2{
+            color: #FF2B51;
+            text-align: left;
+            font-family: Poppins;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 2.2px;
+        }
+        p{
+            color: #FFF;
+            text-align: left;
+            font-family: Poppins;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            width: 80%;
+        }
+    }
+}

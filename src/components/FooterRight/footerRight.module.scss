@@ -1,0 +1,14 @@
+.FooterRight{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    svg{
+        color: #fff;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+    .twitter,.facebook{
+        color: #FF2B51;
+    }
+}

@@ -1,0 +1,66 @@
+.ContactBanner{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+    figure{
+        width: 40%;
+        margin-top: 25px;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__content{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        h2{
+            color: #fff;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+           
+        }
+        &__btns{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            button{
+                width: 200px;
+                height: 55px;
+                background-color: #ff2b51;
+                
+                cursor: pointer;
+                transition: .5s;
+                border-radius: 12px;
+                a{
+                    color: #fff;
+                }
+                &:hover{
+                    transform: scale(1.05);
+                    background-color: #fff;
+                    
+                    border: 1px solid #ff2b51;
+                    a{
+                        color: #ff2b51;
+                    }
+                }
+            }
+        }
+        p{
+            color: #fff;
+            font-family: Poppins;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 1.32px;
+            margin-top: 15px;
+        }
+    }
+}
