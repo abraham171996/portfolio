@@ -1,8 +1,16 @@
 import React from 'react'
+import styles from './header.module.scss'
+import HeaderLeft from '../../components/HeaderLeft'
+import HeaderRight from '../../components/HeaderRight'
+import Menu from '../../components/Menu'
 
 const Header = () => {
   return (
-    <header>Header</header>
+    <header className={styles.Header}>
+        <HeaderLeft/>
+        <Menu/>
+        <HeaderRight/>
+    </header>
   )
 }
 
